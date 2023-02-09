@@ -5,19 +5,19 @@ A classic navigate through rooms, find the key, and open the door game. This is 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ## Prerequisites
-You need to have the Java Development Kit (JDK) installed on your computer. You can download the latest version of JDK from the official Java SE Downloads page. This game was programmed in the NetBeans IDE. Please be sure to have the IDE installed before use.
+I run my game on VSCode with the application, LOVE2D. You can download the latest version of LOVE2D from the officia lhttps://love2d.org/ page. Please be sure to have the IDE (in this case VSCode) and LOVE2D installed before use.
 
 ## Installing
 To install the game, simply clone or download the repository to your local machine.
 
-**Copy code:** git clone https://github.com/teddycormier/blackjack_java.git <br><br>
-After downloading the repository, open a new project in NetBeans, navigate to the main window, right click, and hit "run".
+**Copy code:** git clone https://github.com/teddycormier/quest_game_lua.git <br><br>
+After downloading the repository, open a new project in VSCode, navigate to the main window (has to be the main window, otherwise it wont run), use command + L on MacOS and Alt + L on Windows to run the game through the LOVE2D interface.
 
 ## Gameplay
-The objective of the game is to beat the dealer by having a hand value of 21 or as close to 21 as possible, without exceeding it. The game starts with the player being dealt two cards, and the dealer being dealt one card face up and one card face down. The player can choose to hit (take another card) or stand (keep their current hand). If the player exceeds a hand value of 21, they lose the game.
+Embark on a thrilling adventure in a post-apocalyptic world where zombies roam the land. Your mission is to navigate through the maze of rooms and find the key to unlock the door and escape to safety. But beware, the zombies are lurking in every corner, ready to pounce at any moment. Use your wits, strategy and quick reflexes to dodge and defeat the zombies as you make your way through the rooms in search of the key. The fate of your survival rests in your hands in this pulse-pounding, action-packed game written in Lua.
 
 ## Built With
-Java programming language and the deck of cards API - https://www.deckofcardsapi.com/
+Lua programming language and LOVE2D
 
 ## Contributing
 If you are interested in contributing to the project, please feel free to open a pull request.
